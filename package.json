@@ -1,0 +1,51 @@
+{
+  "name": "subandhan.nidhi",
+  "version": "1.0.0",
+  "description": "The server side data management & API's Services of the Subandhan Nidhi Society. an small finance society for Loans, Fds, Rd & Rest..",
+  "main": "public/index.js",
+  "scripts": {
+    "start": "pm2 start"
+  },
+  "keywords": [
+    "Subndhan",
+    "Nidhi",
+    "SubandhanNidhi",
+    "bank",
+    "loan",
+    "rds",
+    "fds",
+    "finance",
+    "society"
+  ],
+  "author": "Vaibhav Paliwal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.4.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.4.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.5.3",
+    "mongoose-aggregate-paginate-v2": "^1.1.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0",
+    "node-cron": "^3.0.3",
+    "path": "^0.12.7",
+    "pm2": "^5.4.2",
+    "socket.io": "^4.7.5",
+    "streamifier": "^0.1.1",
+    "twilio": "^5.2.2",
+    "uuid": "^10.0.0",
+    "xss-clean": "^0.1.4"
+  }
+}
